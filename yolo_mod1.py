@@ -12,8 +12,8 @@ from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 
 
-account_sid = 'AC62722f2f1d0810d0868c19d599c21969'
-auth_token = '05d53d64cc80bb28373668982113f405'
+account_sid = 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx5'
 client = Client(account_sid, auth_token)
 
 # construct the argument parse and parse the arguments
