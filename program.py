@@ -236,7 +236,7 @@ while True:
                         if(count==2):
                                 print("new object detected")
                                sms_text = 'Animal detected is',LABELS[classIDs[i]]
-                                message = client.messages.create(body=sms_text,from_='+16467988374',to='+918970370853')
+                                message = client.messages.create(body=sms_text,from_='+16XXXXXXXXX',to='+91XXXXXXXXXXX')
         cv2.imshow('name',frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
